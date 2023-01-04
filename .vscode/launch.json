@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "msedge",
+            "name": "\"./01var.js\"",
+            "request": "launch",
+            "url": "\"./01var.js\""
+        }
+    ]
+}
