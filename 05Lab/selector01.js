@@ -8,7 +8,7 @@
 
 $(document).ready(function () {
     $("#button_01").click(function () {
-        $("p").hide();
+        $("p").hide('500');
     });
     
     $("#button_02").click(function () {
