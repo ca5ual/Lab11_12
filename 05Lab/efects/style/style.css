@@ -1,0 +1,42 @@
+body {
+    background-color: gray;
+}
+
+ #square {
+    width: 120px;
+    height: 120px;
+    background-color: green;
+}
+#triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 140px solid yellow;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+}
+
+#circle {
+    width: 120px;
+    height: 120px;
+    background: red;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+} 
+
+.square {
+    
+    height: 100px;
+    width: 100px;
+    display: table-cell;
+    background-color: red;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    
+}
+
+ 
+
+  
