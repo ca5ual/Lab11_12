@@ -49,6 +49,21 @@ $(document).ready(function () {
         div.animate ({height: '100px', width: '100px', fontSize: '15px', color: 'white', backgroundColor:'red', borderRadius: '0px'}, "slow");  
     });
     
+    $("#button_move").click (function () {
+        $("#panel_move").slideDown(5000);
+        
+    });
+    $("#button_stop").click(function () {
+        $(".panel_stop").stop().callback();
+    
+       });
+    $("#chaining").click(function () {
+        $(".p_01").css("color", "white").slideUp(1500).slideDown(1000);
+    });
+    $("#chaining2").click(function () {
+        $(".square2").css("color", "white").slideUp(1200).slideDown(3000).fadeTo('slow', 0.6).callback();
+    })
+
     });
     
 
