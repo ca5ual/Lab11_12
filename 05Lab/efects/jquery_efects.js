@@ -1,8 +1,8 @@
 $(document).ready(function () {
     $("#button_01").click(function () {
-        $("#square").fadeIn ();
-        $("#triangle").fadeIn ('slow');
-        $("#cirlce").fadeIn(800);
+        $("#square").fadeIn ()
+        $("#triangle").fadeIn ('slow')
+        $("#circle").fadeIn(800);
     });
 
    $("#button_02").click(function () {
